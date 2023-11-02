@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 
 const NewsCards = ({ news }) => {
-    const {image_url, title , details, _id} = news;
+    const {image_url, thumbnail_url, title , details, _id} = news;
     return (
-        <div className="card  bg-base-100 shadow-xl">
+        <div className="card  bg-base-100 shadow-xl mx-4 mb-4">
             <figure><img src={image_url} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>

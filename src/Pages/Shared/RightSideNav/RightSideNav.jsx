@@ -25,6 +25,11 @@ const RightSideNav = () => {
                     <img src={qZone2} alt="" />
                     <img src={qZone3} alt="" />
                 </div>
+                <div className="p-10 bg-[url('https://i.ibb.co/YNhBCxM/bg1.png')]">
+                <h2 className="text-white text-3xl font-bold mb-4 text-center">Create an Amazing Newspaper</h2>
+                <p className="text-white text-base text-center mb-6">Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+                <button className="btn btn-secondary ml-10">Learn More</button>
+                </div>
             </div>
         </div>
     );
